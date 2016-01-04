@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitStats - cdnjsmaster</title>
+    <meta charset='utf-8'>
+    <link href='../../../assets/bootstrap/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <style>
+      body { padding-top: 60px; }
+    </style>
+    <link href='../../../assets/bootstrap/css/bootstrap-responsive.min.css' rel='stylesheet' type='text/css'>
+    <script src='../../../assets/jquery.min.js' type='text/javascript'></script>
+    <script src='../../../assets/bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+    <script src='../../../assets/highstock.js' type='text/javascript'></script>
+  </head>
+  <body>
+    <div class='navbar navbar-fixed-top'>
+      <div class='navbar-inner'>
+        <div class='container'>
+          <a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </a>
+          <a class='brand' href='../../../index.html'>GitStats - cdnjsmaster</a>
+          <div class='nav-collapse collapse'>
+            <ul class='nav'>
+              <li class=''>
+                <a href='../../../general.html'>General</a>
+              </li>
+              <li class=''>
+                <a href='../../../activity/by_date.html'>Activity</a>
+              </li>
+              <li class='active'>
+                <a href='../../best_authors.html'>Authors</a>
+              </li>
+              <li class=''>
+                <a href='../../../files/by_date.html'>Files</a>
+              </li>
+              <li class='active'>
+                <a href='../../../lines/by_date.html'>Lines</a>
+              </li>
+              <li class=''>
+                <a href='../../../comments/by_date.html'>Comments</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='tabbable tabs-left'>
+        <ul class='nav nav-tabs'>
+          <li class=''>
+            <a href='commits_by_date.html'>Commits by date</a>
+          </li>
+          <li class='active'>
+            <a href='changed_lines_by_date.html'>Changed lines by date</a>
+          </li>
+          <li class=''>
+            <a href='insertions_by_date.html'>Lines added by date</a>
+          </li>
+          <li class=''>
+            <a href='deletions_by_date.html'>Lines deleted by date</a>
+          </li>
+        </ul>
+        <div class='tab-content'>
+          <div class='tab-pane active'>
+            <div class='page-header'>
+              <h1 class='pagination-centered'>Changed lines by date</h1>
+            </div>
+                    <script type="text/javascript">
+                    (function() {
+                      var onload = window.onload;
+                      window.onload = function(){
+                        if (typeof onload == "function") onload();
+                                var options = { "title": { "text": "" },"legend": { "enabled": true,"layout": "vertical","backgroundColor": "#FFFFFF","align": "left","verticalAlign": "top","x": 100,"y": 70,"floating": true,"shadow": true },"xAxis": { "title": { "text": null } },"yAxis": { "title": { "text": "Lines" },"labels": {  } },"tooltip": { "enabled": true },"credits": { "enabled": false },"plotOptions": { "areaspline": {  } },"chart": { "defaultSeriesType": "line","renderTo": "charts.changed_lines_by_author_by_date" },"subtitle": {  },"series": [{ "name": "Juan Gallardo","type": "spline","data": [ [ 1399942314000,349 ],[ 1399942546000,389 ],[ 1400000251000,394 ],[ 1400002100000,492 ],[ 1400013067000,1236 ],[ 1400086920000,2690 ],[ 1400177222000,3077 ],[ 1400177425000,3103 ],[ 1400258592000,3105 ],[ 1400284800000,3105 ],[ 1400371200000,3105 ],[ 1400517469000,3842 ],[ 1400605291000,3843 ],[ 1400609634000,4212 ],[ 1400610107000,4581 ],[ 1400693017000,4950 ],[ 1400781529000,4971 ],[ 1400866995000,4989 ],[ 1400889600000,4993 ],[ 1400895716000,4993 ],[ 1400976000000,4993 ],[ 1401062400000,4993 ],[ 1401211110000,6588 ],[ 1401227926000,6590 ],[ 1401238038000,6612 ],[ 1401299460000,7001 ],[ 1401310071000,7058 ],[ 1401388355000,14956 ],[ 1401408000000,14956 ],[ 1401494400000,14956 ],[ 1401580800000,14956 ],[ 1401729260000,15595 ],[ 1401739397000,15597 ],[ 1401750378000,16594 ],[ 1401813806000,17665 ],[ 1401903582000,17686 ],[ 1401907560000,17891 ],[ 1401927961000,17985 ],[ 1401987018000,18975 ],[ 1402008562000,18977 ],[ 1402072629000,21034 ],[ 1402099200000,21034 ],[ 1402185600000,21034 ],[ 1402335094000,24841 ],[ 1402356496000,24843 ],[ 1402418360000,25587 ],[ 1402503827000,26331 ],[ 1402503871000,27075 ],[ 1402594880000,27247 ],[ 1402678486000,27824 ],[ 1402704000000,27824 ],[ 1402790400000,27824 ],[ 1402939897000,42790 ],[ 1403023360000,51125 ],[ 1403049600000,51125 ],[ 1403136000000,51125 ],[ 1403222400000,51125 ],[ 1403308800000,51125 ],[ 1403395200000,51125 ],[ 1403544373000,52328 ],[ 1403636024000,57374 ],[ 1403654400000,57374 ],[ 1403740800000,57374 ],[ 1403894313000,57570 ],[ 1403913600000,57570 ],[ 1404000000000,57570 ],[ 1404086400000,57570 ],[ 1404260529000,57800 ],[ 1404317447000,57803 ] ] }] };
+                    
+                    window.chart_charts.changed_lines_by_author_by_date = new Highcharts.StockChart(options);
+            
+                      };
+                    })()
+                    </script>
+            <div id="charts.changed_lines_by_author_by_date"></div>
+            <small>
+              <center>5 best authors shown</center>
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

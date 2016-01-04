@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitStats - cdnjsmaster</title>
+    <meta charset='utf-8'>
+    <link href='../../../assets/bootstrap/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <style>
+      body { padding-top: 60px; }
+    </style>
+    <link href='../../../assets/bootstrap/css/bootstrap-responsive.min.css' rel='stylesheet' type='text/css'>
+    <script src='../../../assets/jquery.min.js' type='text/javascript'></script>
+    <script src='../../../assets/bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+    <script src='../../../assets/highstock.js' type='text/javascript'></script>
+  </head>
+  <body>
+    <div class='navbar navbar-fixed-top'>
+      <div class='navbar-inner'>
+        <div class='container'>
+          <a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </a>
+          <a class='brand' href='../../../index.html'>GitStats - cdnjsmaster</a>
+          <div class='nav-collapse collapse'>
+            <ul class='nav'>
+              <li class=''>
+                <a href='../../../general.html'>General</a>
+              </li>
+              <li class=''>
+                <a href='../../../activity/by_date.html'>Activity</a>
+              </li>
+              <li class='active'>
+                <a href='../../best_authors.html'>Authors</a>
+              </li>
+              <li class=''>
+                <a href='../../../files/by_date.html'>Files</a>
+              </li>
+              <li class=''>
+                <a href='../../../lines/by_date.html'>Lines</a>
+              </li>
+              <li class=''>
+                <a href='../../../comments/by_date.html'>Comments</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='tabbable tabs-left'>
+        <ul class='nav nav-tabs'>
+          <li class=''>
+            <a href='commits_by_date.html'>Commits by date</a>
+          </li>
+          <li class=''>
+            <a href='changed_lines_by_date.html'>Changed lines by date</a>
+          </li>
+          <li class='active'>
+            <a href='insertions_by_date.html'>Lines added by date</a>
+          </li>
+          <li class=''>
+            <a href='deletions_by_date.html'>Lines deleted by date</a>
+          </li>
+        </ul>
+        <div class='tab-content'>
+          <div class='tab-pane active'>
+            <div class='page-header'>
+              <h1 class='pagination-centered'>Lines added by date</h1>
+            </div>
+                    <script type="text/javascript">
+                    (function() {
+                      var onload = window.onload;
+                      window.onload = function(){
+                        if (typeof onload == "function") onload();
+                                var options = { "title": { "text": "" },"legend": { "enabled": true,"layout": "vertical","backgroundColor": "#FFFFFF","align": "left","verticalAlign": "top","x": 100,"y": 70,"floating": true,"shadow": true },"xAxis": { "title": { "text": null } },"yAxis": { "title": { "text": "Lines" },"labels": {  } },"tooltip": { "enabled": true },"credits": { "enabled": false },"plotOptions": { "areaspline": {  } },"chart": { "defaultSeriesType": "line","renderTo": "charts.insertions_by_author_by_date" },"subtitle": {  },"series": [{ "name": "Roman Kozlovskyi","type": "spline","data": [ [ 1373535680000,5635 ],[ 1373536111000,6890 ],[ 1373587200000,6890 ],[ 1373673600000,6890 ],[ 1373760000000,6890 ],[ 1373846400000,6890 ],[ 1373932800000,6890 ],[ 1374019200000,6890 ],[ 1374105600000,6890 ],[ 1374192000000,6890 ],[ 1374278400000,6890 ],[ 1374439442000,8224 ],[ 1374439784000,8735 ],[ 1374451200000,8735 ],[ 1374612291000,9015 ],[ 1374624000000,9015 ],[ 1374710400000,9015 ],[ 1374796800000,9015 ],[ 1374883200000,9015 ],[ 1374969600000,9015 ],[ 1375056000000,9015 ],[ 1375142400000,9015 ],[ 1375228800000,9015 ],[ 1375315200000,9015 ],[ 1375401600000,9015 ],[ 1375488000000,9015 ],[ 1375574400000,9015 ],[ 1375660800000,9015 ],[ 1375747200000,9015 ],[ 1375833600000,9015 ],[ 1375920000000,9015 ],[ 1376006400000,9015 ],[ 1376092800000,9015 ],[ 1376179200000,9015 ],[ 1376265600000,9015 ],[ 1376352000000,9015 ],[ 1376438400000,9015 ],[ 1376524800000,9015 ],[ 1376611200000,9015 ],[ 1376697600000,9015 ],[ 1376784000000,9015 ],[ 1376870400000,9015 ],[ 1377006172000,9308 ],[ 1377008388000,11893 ],[ 1377043200000,11893 ],[ 1377129600000,11893 ],[ 1377216000000,11893 ],[ 1377302400000,11893 ],[ 1377388800000,11893 ],[ 1377475200000,11893 ],[ 1377561600000,11893 ],[ 1377648000000,11893 ],[ 1377734400000,11893 ],[ 1377878332000,12186 ],[ 1377907200000,12186 ],[ 1377993600000,12186 ],[ 1378080000000,12186 ],[ 1378166400000,12186 ],[ 1378252800000,12186 ],[ 1378339200000,12186 ],[ 1378425600000,12186 ],[ 1378512000000,12186 ],[ 1378598400000,12186 ],[ 1378684800000,12186 ],[ 1378841637000,13470 ],[ 1378857600000,13470 ],[ 1379012712000,15025 ],[ 1379030400000,15025 ],[ 1379192201000,15331 ],[ 1379203200000,15331 ],[ 1379289600000,15331 ],[ 1379376000000,15331 ],[ 1379462400000,15331 ],[ 1379548800000,15331 ],[ 1379635200000,15331 ],[ 1379721600000,15331 ],[ 1379808000000,15331 ],[ 1379894400000,15331 ],[ 1379980800000,15331 ],[ 1380067200000,15331 ],[ 1380153600000,15331 ],[ 1380240000000,15331 ],[ 1380326400000,15331 ],[ 1380412800000,15331 ],[ 1380499200000,15331 ],[ 1380585600000,15331 ],[ 1380747521000,15638 ] ] }] };
+                    
+                    window.chart_charts.insertions_by_author_by_date = new Highcharts.StockChart(options);
+            
+                      };
+                    })()
+                    </script>
+            <div id="charts.insertions_by_author_by_date"></div>
+            <small>
+              <center>5 best authors shown</center>
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

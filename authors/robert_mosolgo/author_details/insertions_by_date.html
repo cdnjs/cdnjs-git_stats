@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitStats - cdnjsmaster</title>
+    <meta charset='utf-8'>
+    <link href='../../../assets/bootstrap/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <style>
+      body { padding-top: 60px; }
+    </style>
+    <link href='../../../assets/bootstrap/css/bootstrap-responsive.min.css' rel='stylesheet' type='text/css'>
+    <script src='../../../assets/jquery.min.js' type='text/javascript'></script>
+    <script src='../../../assets/bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+    <script src='../../../assets/highstock.js' type='text/javascript'></script>
+  </head>
+  <body>
+    <div class='navbar navbar-fixed-top'>
+      <div class='navbar-inner'>
+        <div class='container'>
+          <a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </a>
+          <a class='brand' href='../../../index.html'>GitStats - cdnjsmaster</a>
+          <div class='nav-collapse collapse'>
+            <ul class='nav'>
+              <li class=''>
+                <a href='../../../general.html'>General</a>
+              </li>
+              <li class=''>
+                <a href='../../../activity/by_date.html'>Activity</a>
+              </li>
+              <li class='active'>
+                <a href='../../best_authors.html'>Authors</a>
+              </li>
+              <li class=''>
+                <a href='../../../files/by_date.html'>Files</a>
+              </li>
+              <li class=''>
+                <a href='../../../lines/by_date.html'>Lines</a>
+              </li>
+              <li class=''>
+                <a href='../../../comments/by_date.html'>Comments</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='tabbable tabs-left'>
+        <ul class='nav nav-tabs'>
+          <li class=''>
+            <a href='commits_by_date.html'>Commits by date</a>
+          </li>
+          <li class=''>
+            <a href='changed_lines_by_date.html'>Changed lines by date</a>
+          </li>
+          <li class='active'>
+            <a href='insertions_by_date.html'>Lines added by date</a>
+          </li>
+          <li class=''>
+            <a href='deletions_by_date.html'>Lines deleted by date</a>
+          </li>
+        </ul>
+        <div class='tab-content'>
+          <div class='tab-pane active'>
+            <div class='page-header'>
+              <h1 class='pagination-centered'>Lines added by date</h1>
+            </div>
+                    <script type="text/javascript">
+                    (function() {
+                      var onload = window.onload;
+                      window.onload = function(){
+                        if (typeof onload == "function") onload();
+                                var options = { "title": { "text": "" },"legend": { "enabled": true,"layout": "vertical","backgroundColor": "#FFFFFF","align": "left","verticalAlign": "top","x": 100,"y": 70,"floating": true,"shadow": true },"xAxis": { "title": { "text": null } },"yAxis": { "title": { "text": "Lines" },"labels": {  } },"tooltip": { "enabled": true },"credits": { "enabled": false },"plotOptions": { "areaspline": {  } },"chart": { "defaultSeriesType": "line","renderTo": "charts.insertions_by_author_by_date" },"subtitle": {  },"series": [{ "name": "Robert Mosolgo","type": "spline","data": [ [ 1390755826000,36 ],[ 1390780800000,36 ],[ 1390867200000,36 ],[ 1390953600000,36 ],[ 1391040000000,36 ],[ 1391212800000,28105 ],[ 1391214836000,28105 ],[ 1391299200000,28105 ],[ 1391385600000,28105 ],[ 1391472000000,28105 ],[ 1391558400000,28105 ],[ 1391644800000,28105 ],[ 1391731200000,28105 ],[ 1391817600000,28105 ],[ 1391904000000,28105 ],[ 1391990400000,28105 ],[ 1392076800000,28105 ],[ 1392163200000,28105 ],[ 1392249600000,28105 ],[ 1392336000000,28105 ],[ 1392422400000,28105 ],[ 1392508800000,28105 ],[ 1392595200000,28105 ],[ 1392681600000,28105 ],[ 1392768000000,28105 ],[ 1392854400000,28105 ],[ 1392940800000,28105 ],[ 1393027200000,28105 ],[ 1393113600000,28105 ],[ 1393200000000,28105 ],[ 1393286400000,28105 ],[ 1393372800000,28105 ],[ 1393459200000,28105 ],[ 1393545600000,28105 ],[ 1393632000000,28105 ],[ 1393718400000,28105 ],[ 1393804800000,28105 ],[ 1393891200000,28105 ],[ 1393977600000,28105 ],[ 1394064000000,28105 ],[ 1394150400000,28105 ],[ 1394236800000,28105 ],[ 1394323200000,28105 ],[ 1394409600000,28105 ],[ 1394496000000,28105 ],[ 1394582400000,28105 ],[ 1394668800000,28105 ],[ 1394755200000,28105 ],[ 1394841600000,28105 ],[ 1394928000000,28105 ],[ 1395014400000,28105 ],[ 1395100800000,28105 ],[ 1395187200000,28105 ],[ 1395273600000,28105 ],[ 1395360000000,28105 ],[ 1395446400000,28105 ],[ 1395532800000,28105 ],[ 1395619200000,28105 ],[ 1395705600000,28105 ],[ 1395792000000,28105 ],[ 1395878400000,28105 ],[ 1395964800000,28105 ],[ 1396051200000,28105 ],[ 1396137600000,28105 ],[ 1396224000000,28105 ],[ 1396310400000,28105 ],[ 1396396800000,28105 ],[ 1396483200000,28105 ],[ 1396569600000,28105 ],[ 1396656000000,28105 ],[ 1396742400000,28105 ],[ 1396828800000,28105 ],[ 1396915200000,28105 ],[ 1397001600000,28105 ],[ 1397088000000,28105 ],[ 1397174400000,28105 ],[ 1397260800000,28105 ],[ 1397347200000,28105 ],[ 1397433600000,28105 ],[ 1397520000000,28105 ],[ 1397606400000,28105 ],[ 1397692800000,28105 ],[ 1397779200000,28105 ],[ 1397865600000,28105 ],[ 1397952000000,28105 ],[ 1398038400000,28105 ],[ 1398124800000,28105 ],[ 1398211200000,28105 ],[ 1398297600000,28105 ],[ 1398384000000,28105 ],[ 1398470400000,28105 ],[ 1398556800000,28105 ],[ 1398643200000,28105 ],[ 1398729600000,28105 ],[ 1398816000000,28105 ],[ 1398902400000,28105 ],[ 1398988800000,28105 ],[ 1399075200000,28105 ],[ 1399161600000,28105 ],[ 1399248000000,28105 ],[ 1399334400000,28105 ],[ 1399420800000,28105 ],[ 1399507200000,28105 ],[ 1399593600000,28105 ],[ 1399741895000,52439 ] ] }] };
+                    
+                    window.chart_charts.insertions_by_author_by_date = new Highcharts.StockChart(options);
+            
+                      };
+                    })()
+                    </script>
+            <div id="charts.insertions_by_author_by_date"></div>
+            <small>
+              <center>5 best authors shown</center>
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
